@@ -14,6 +14,8 @@ import javax.ejb.Remote;
 
 @Remote
 public interface Hotel {
+    public void requestContingent(String city, String date, String type);
+    
     
     
 }
